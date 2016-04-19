@@ -33,6 +33,7 @@ app.get('/webhook/', function (req, res) {
     res.send('Error, wrong token')
 })
 */
+var token = "CAAOgpWyZBioEBABY1VvJbafMzOjRQ4YyB16ZAis16atljuMISrIplZCcV6xRFZAJNDwAF5IGGLaJuZA6CVvEeSYvvj7gtdXmQY7ctcDCjEb58SoB541uMqRiWvqqfWWSFI2ZC9ru7JPwWy1uInlLLvJS85ZAZB14lno6PzGgNMjWZCsXI96KAoeBzVeAAHF66ZC9kCVixsM15ffAZDZD"
 
 
 app.post('/webhook/', function (req, res) {
@@ -47,9 +48,6 @@ app.post('/webhook/', function (req, res) {
     }
     res.sendStatus(200)
 })
-
-var token = "<CAAOgpWyZBioEBABY1VvJbafMzOjRQ4YyB16ZAis16atljuMISrIplZCcV6xRFZAJNDwAF5IGGLaJuZA6CVvEeSYvvj7gtdXmQY7ctcDCjEb58SoB541uMqRiWvqqfWWSFI2ZC9ru7JPwWy1uInlLLvJS85ZAZB14lno6PzGgNMjWZCsXI96KAoeBzVeAAHF66ZC9kCVixsM15ffAZDZD>"
-
 
 
 function sendTextMessage(sender, text) {
